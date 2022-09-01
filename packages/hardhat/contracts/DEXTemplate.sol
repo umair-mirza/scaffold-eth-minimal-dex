@@ -18,6 +18,9 @@ contract DEX {
     using SafeMath for uint256; //outlines use of SafeMath for uint256 variables
     IERC20 token; //instantiates the imported contract
 
+    uint256 public totalLiquidity;
+    mapping (address => uint256) public liquidity;
+
     /* ========== EVENTS ========== */
 
     /**
