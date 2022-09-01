@@ -38,7 +38,7 @@ module.exports = async ({ getNamedAccounts, deployments, getChainId }) => {
 
   // paste in your front-end address here to get 10 balloons on deploy:
   await balloons.transfer(
-    "0x08C01CEc8B8c793D768f502b604113074CE212aD",
+    "0x9D32195763d904A8144f5EF3CAD60d1C79AFf9CF",
     "" + 10 * 10 ** 18
   );
 
